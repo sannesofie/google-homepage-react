@@ -89,26 +89,26 @@ header {
   color: rgb(234, 67, 53);
 }
 
-input {
+.input-form {
   padding: 15px 200px;
   outline: none;
-  border: 1px solid rgb(238, 236, 236);
-  border-radius: 25px;
   position: relative;
   top: 25px;
+  text-align: center;
 }
 
-button {
+.buttons {
   position: relative;
   top: 45px;
   padding: 15px 26px;
   border: none;
   outline: none;
   color: #333;
-  background-color: #f8f9fa;
+  background-color: white;
   margin: 16px;
-  cursor: pointer;
+  cursor: grab;
   border-radius: 5px;
+  text-align: center;
 }
 
 footer {
